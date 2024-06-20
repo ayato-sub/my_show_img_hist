@@ -42,7 +42,7 @@ def show_color_selector(hist_red, hist_green, hist_blue):
     """
 
     color = st.radio(
-        "choose R, G, or B",
+        "choose colors in R, G, or B",
         ('R', 'G', 'B')
     )
     if color == 'R':
